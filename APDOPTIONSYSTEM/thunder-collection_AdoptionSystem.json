@@ -1,0 +1,65 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "AdoptionSystem",
+    "dateExported": "2024-02-26T23:53:25.494Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "a3a7ff86-3f82-4079-88ab-a32e2bacceee",
+            "colId": "44c848f5-da94-4440-a794-c3000e6fc173",
+            "containerId": "",
+            "name": "SaveAppointment",
+            "url": "localhost:2656/category/saveCategory",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-02-26T23:47:02.146Z",
+            "modified": "2024-02-26T23:47:29.887Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "date",
+                        "value": ""
+                    },
+                    {
+                        "name": "user",
+                        "value": ""
+                    },
+                    {
+                        "name": "animal",
+                        "value": ""
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "2ea5362a-9cf5-45b1-9543-33a3e5630acd",
+            "colId": "44c848f5-da94-4440-a794-c3000e6fc173",
+            "containerId": "",
+            "name": "searchAnimal",
+            "url": "localhost:2656/animal/search",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2024-02-26T23:47:40.451Z",
+            "modified": "2024-02-26T23:51:37.870Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "search",
+                        "value": ""
+                    }
+                ]
+            },
+            "tests": []
+        }
+    ]
+}
